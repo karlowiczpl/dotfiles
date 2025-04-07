@@ -1,6 +1,6 @@
 # Dotfiles
 
-### Aby zainstalować, uruchom poniższe polecenie:
+### To install run the folowing command:
 
 ```bash
 bash setup.sh
