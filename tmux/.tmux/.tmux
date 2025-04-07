@@ -1,0 +1,1 @@
+/home/Karol/repozytoria/dotfiles/tmux/.tmux
