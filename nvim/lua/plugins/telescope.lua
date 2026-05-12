@@ -83,11 +83,6 @@ return {
     vim.keymap.set('n', '<leader>fw', builtin.current_buffer_fuzzy_find, { desc = '[f]ind [w]ord' })
 
     vim.keymap.set('n', '<leader>fd', builtin.diagnostics, { desc = '[f]ind [d]iagnostics' })
-    vim.keymap.set('n', '<leader>fs', function()
-      builtin.lsp_document_symbols {
-        symbols = { 'class', 'function', 'method', 'constructor', 'interface', 'module', 'property' },
-      }
-    end, { desc = '[f]ind in lsp document [s]ymbols' })
 
   end,
 }
