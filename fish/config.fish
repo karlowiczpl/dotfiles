@@ -8,3 +8,4 @@ set -gx EDITOR nvim
 set -gx BROWSER firefox
 
 alias ta 'tmux attach-session'
+alias tn 'tmux new -s'
