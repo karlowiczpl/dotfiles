@@ -1,3 +1,10 @@
 if status is-interactive
-# Commands to run in interactive sessions can go here
+    fish_default_key_bindings
+
+    set fish_greeting "fish shell!"
 end
+
+set -gx EDITOR nvim
+set -gx BROWSER firefox
+
+alias ta 'tmux attach-session'
