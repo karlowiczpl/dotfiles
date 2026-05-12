@@ -70,6 +70,7 @@ instance = "Alacritty"
 
 [window]
 opacity = 1
+startup_mode = "Fullscreen"
 
 [window.padding]
 x = 0
